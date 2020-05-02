@@ -40,7 +40,7 @@ def standardization(x, counts_mu, counts_sigma):
             x[j][i] = (x[j][i] -  count_mu) / count_sigma
 
 
-def get_normalization_main_max(x):
+def get_normalization_min_max(x):
 	n = len(x)
 	m = len(x[0])
 	counts_min = []
